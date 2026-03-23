@@ -12,7 +12,7 @@ Supervised by: [Prof. Dr.-Ing. Maria Schweigel] | Industry Partner: Robert Bosch
 This repository contains the public implementation of the Physics-Informed
 Neural Network (PINN) framework developed in the Master's thesis:
 
-> *Hybrid Modelling of Ageing of Li-ion Batteries Using Physics-Informed
+> *Hybrid Modelling for Aging of Lithium-ion Batteries Using Physics-Informed
 > Neural Networks*
 
 The framework predicts capacity degradation trajectories of lithium-ion
@@ -42,9 +42,9 @@ from an electrochemical aging model.
 ## Repository Structure
 
 ```
-battery-pinn-soh/
+PINNs_SoH/
 │
-├── battery_pinn_public.py   # Main implementation (see note below)
+├── battery_pinn_soh.py   # Main implementation (see note below)
 ├── README.md                # This file
 └── cell_split.json          # Fixed train/test cell split (seed 42)
 ```
@@ -132,7 +132,7 @@ If you use this code in your work, please cite:
 ```
 Vurukuti, M. V. S. (2025). Hybrid Modelling of Ageing of Li-ion Batteries
 Using Physics-Informed Neural Networks. Master's Thesis,
-[Your University Name].
+[Schmalkalden University of Applied Sciences].
 ```
 
 ---
@@ -140,5 +140,4 @@ Using Physics-Informed Neural Networks. Master's Thesis,
 ## Contact
 
 **Mohan Vijay Sampath Vurukuti**  
-[your.email@university.de]  
-[LinkedIn profile link — optional]
+[mohanvijaysampath@gmail.com] 
